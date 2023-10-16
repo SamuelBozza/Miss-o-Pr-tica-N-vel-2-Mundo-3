@@ -7,7 +7,7 @@
 
 # SCRIPT COMPLETO
 
-
+```
 -- SCRIPT DE CRIAÇÃO DAS TABELAS
 
 CREATE TABLE Produto (
@@ -183,3 +183,4 @@ SELECT Produto_idProduto,
 FROM Movimento
 WHERE tipo = 'S'
 GROUP BY Produto_idProduto;
+```
