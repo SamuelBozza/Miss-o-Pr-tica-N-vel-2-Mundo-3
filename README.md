@@ -14,7 +14,7 @@ CREATE TABLE Produto (
   idProduto INT IDENTITY(1,1) PRIMARY KEY,
   nome VARCHAR(255),
   quantidade INT,
-  precoVenda NUMERIC
+  precoVenda DECIMAL(12, 2)
 );
 
 CREATE TABLE Usuario (
